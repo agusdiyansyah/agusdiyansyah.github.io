@@ -1,0 +1,5 @@
+{% macro style(data) %}
+	{% for item in data %}
+		<link rel="stylesheet" href="{{item}}">
+	{% endfor %}
+{% endmacro %}
