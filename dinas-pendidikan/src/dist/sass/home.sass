@@ -1,0 +1,234 @@
+@import "./dependencies/color.sass"
+@import "./dependencies/macros.sass"
+
+
+html, body
+	font-family: 'open sans'
+
+.title-bold
+	font-weight: 500
+	color: $color-active
+
+.title
+	font-size: 2em
+
+.menu-top
+	background-color: #fff
+	box-shadow: 0 -1px 54px 10px rgba(0,0,0,0.34)
+	position: relative
+	.navbar
+		padding: 20px 15px 5px
+	.navbar-default
+		background-color: transparent
+		border: none
+		.navbar-collapse
+			padding-top: 15px
+			border: none
+		.navbar-nav
+			@include col(sm)
+				margin-top: 10px
+			.active > a
+				background-color: transparent
+				color: $color-active
+	.logo
+		div
+			display: inline-table
+		img
+			margin-right: 10px
+		.title
+			line-height: 1em
+			vertical-align: middle
+
+.header
+
+.sambutan
+	padding-top: 100px
+	.content
+		div
+			margin-bottom: 15px
+
+.about
+	padding-top: 100px
+	i
+		width: 150px
+		height: 150px
+	.title
+		margin: 100px
+	.item
+		display: inline-block
+		&:hover
+			cursor: pointer
+			a
+				color: $color-active
+			.circle
+				i
+					color: #fff
+					border: 2px solid $color-active
+					padding: 30px
+					background: $color-active
+					border-radius: 100%
+					font-size: 6em
+					margin-top: 35px
+		div
+			margin-bottom: 15px
+		a
+			text-decoration: none
+			color: #000
+			font-weight: 300
+		.circle
+			border-radius: 100%
+			margin: auto
+			margin-bottom: 15px
+			i
+				border: 2px solid $color-active
+				padding: 30px
+				border-radius: 100%
+				font-size: 6em
+				margin-top: 35px
+				color: $color-active
+
+.berita
+	margin-top: 100px
+	padding: 100px 0
+	background-color: #f6f8fa
+	.title
+		margin-bottom: 80px
+	.content
+		cursor: pointer
+		&:hover
+			span
+				display: block
+				position: absolute
+				left: 120px
+				top: 95px
+				color: #fff
+				font-size: 1.3em
+				font-weight: 300
+				z-index: 1
+				transition: all .5s ease
+				@include col(sm)
+					left: 70px
+					top: 60px
+					font-size: 1em
+				@include col(xs)
+					left: 200px
+					top: 160px
+					font-size: 2em
+			.image
+				img
+					opacity: .5
+					transition: all .5s ease
+			.title
+				color: $color-active
+		span
+			display: none
+
+		div
+			margin-bottom: 15px
+		img
+			width: 100%
+		.image
+			background-color: $color-active
+		.title
+			color: #000
+			font-size: 1.2em
+		.tgl
+			color: #999
+
+.widget
+	margin-top: 100px
+	.title
+		padding-bottom: 50px
+		&:after
+			background-color: $color-active
+			position: absolute
+			content: ""
+			height: 3px
+			width: 40px
+			left: 15px
+			top: 60px
+	.link
+		ol
+			list-style-type: square
+			padding-left: 20px
+			li
+				margin-bottom: 15px
+				a
+					text-decoration: none
+					color: #000
+					&:hover
+						color: $color-active
+	.agenda
+		.item
+			margin-bottom: 15px
+		div
+			.tgl
+				border: 2px solid $color-active
+				border-radius: 15px
+				padding-top: 18px
+		.tgl
+			display: inline-block
+			height: 80px
+			width: 80px
+			text-align: center
+			color: $color-active
+			.number
+				font-size: 2.5em
+				display: block
+				line-height: 25px
+				margin-bottom: 5px
+		.content
+			display: inline-block
+			margin-left: 15px
+			width: 250px
+			line-height: 20px
+			color: rgb(142,142,142)
+			@include col(sm)
+				width: 200px
+			a
+				text-decoration: none
+				color: #000
+				&:hover
+					color: $color-active
+	.pengumuman
+		padding-bottom: 100px
+		.item
+			margin-bottom: 15px
+			a
+				text-decoration: none
+				color: #000
+				&:hover
+					color: $color-active
+.foto
+	padding: 100px 0
+	background-color: #f6f8fa
+	.title
+		margin-bottom: 80px
+	.image
+		.item
+			img
+				width: 100%
+			div
+				background-color: $color-active
+				margin: 15px 0
+			&:hover
+				img
+					opacity: .5
+					transition: all .5s ease
+				.overlay
+					opacity: 1
+			.overlay
+				position: absolute
+				background-color: transparent
+				font-size: 5em
+				top: 50px
+				left: 150px
+				color: #fff
+				opacity: 0
+
+.footer
+	background-color: #222
+	padding: 35px 0
+	color: #626262
+	b
+		font-weight: bolder

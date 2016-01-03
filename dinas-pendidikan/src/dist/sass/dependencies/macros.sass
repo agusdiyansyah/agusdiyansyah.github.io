@@ -1,0 +1,17 @@
+$sm-min : 768
+$md-min : 992
+$lg-min : 1200
+
+@mixin col($media)
+	@if $media == xs
+		@media (max-width: $sm-min - 1 + px)
+			@content
+	@else if $media == sm
+		@media (min-width: $sm-min + px) and (max-width: $md-min - 1 + px)
+			@content
+	@else if $media == md
+		@media (min-width: $md-min + px) and (max-width: $lg-min - 1 + px)
+			@content
+	@else if $media == lg
+		@media (min-width: $lg-min + px)
+			@content
