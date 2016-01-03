@@ -5,17 +5,23 @@
 * @Last Modified time: 2015-12-31 16:12:47
 */
 
+
+// gulp
 var run        = require('gulp');
-var php        = require('gulp-php2html');
-var htmlbeauty = require('gulp-html-prettify');
+// connect
 var connect    = require('gulp-connect');
+// sass
 var sass       = require('gulp-sass');
-var mincss     = require('gulp-minify-css');
+var prefix     = require('gulp-autoprefixer');
 var cssbeauty  = require('gulp-cssbeautify');
 var csslint    = require('gulp-csslint');
-var prefix     = require('gulp-autoprefixer');
-var minjs      = require('gulp-uglify');
+var mincss     = require('gulp-minify-css');
 var rename     = require('gulp-rename');
+// php
+var php        = require('gulp-php2html');
+var htmlbeauty = require('gulp-html-prettify');
+// js
+var minjs      = require('gulp-uglify');
 
 run.task('connect', function () {
 	connect.server({
