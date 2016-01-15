@@ -1,6 +1,6 @@
 /**/bower_components
 /workspace/assets/**
-/workspace/src/pages/**
-/workspace/src/templates/**
+/workspace/src/pages/**/*.*
+/workspace/src/templates/*.*
 /dinas-pendidikan
 /dinas-pendidikan/*
