@@ -31,7 +31,7 @@ var htmlbeauty = require('gulp-html-prettify');
 // js
 var minjs      = require('gulp-uglify');
 
-var dirPath = './src/pages';
+var dirPath = 'src/pages';
 var folders = getFolders(dirPath);
 
 function getFolders(dir){
@@ -55,7 +55,7 @@ run.task('sass', function  () {
 
 	var tasks   = folders.map(function(folder) {
         return run
-            .src(path.join(dirPath, folder, '/*.sass'))
+        .src(['./src/pages/' + folder + '/style.sass', path.join(dirPath, folder, '/*.sass')])
             .pipe(plumber())
             .pipe(concat(folder + ".sass"))
             .pipe(sass.sync().on('error', sass.logError))
@@ -80,7 +80,7 @@ run.task('sass', function  () {
             .pipe(run.dest('assets/styleshets'))
             .pipe(connect.reload())
 	});
-	// return es.concat.apply(null, tasks);
+	return es.concat.apply(null, tasks);
 });
 
 run.task('php', function () {
