@@ -1,0 +1,28 @@
+{
+  "name": "pendidikan",
+  "homepage": "https://github.com/agusdiyansyah/agusdiyansyah.github.io",
+  "authors": [
+    "agusdiyansyah <kreasiin@gmail.com>"
+  ],
+  "description": "website dinas pendidikan kota pontianak",
+  "main": "home.html",
+  "moduleType": [],
+  "keywords": [
+    "dinas",
+    "pendidikan",
+    "kota",
+    "pontianak"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
