@@ -10,6 +10,7 @@ Tidak hanya itu, halaman kerja ini juga dapat meng compile file `sass` menjadi f
 
 # Teknologi yang digunakan
 Untuk memenuhi kebutuhan fungsionalitas, saya menggunakan beberapa teknologi yang digunakan untuk membantu saya dalam mendesain web
+
 1. [Sass](#sass)
 * [Gulp](#gulp)
 
