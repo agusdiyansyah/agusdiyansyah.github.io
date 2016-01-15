@@ -110,3 +110,25 @@ Untuk memproses file pada halaman kerja ini anda perlu menginstall secara manual
 
 # Cara Penggunaan
 1. Struktur Directori
+
+    ```
+assets/
+├── images/
+├── scripts/
+├── styleshets/ (hasil compile sass akan disimpan disini)
+├── vendor/ (tempat menyimpan plugin tambahan)
+src/
+├── pages/
+|   ├── home/
+|   ├── profile/
+├── templates
+|   ├── color.sass
+|   ├── macros.sass
+|   ├── head.php
+|   ├── foot.php
+.bowerrc
+bower.json
+gulpfile.js
+*.html (hasil render)
+
+    ```
