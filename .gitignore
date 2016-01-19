@@ -1,4 +1,5 @@
 /**/bower_components
+/**/node_modules/
 /workspace/assets/**
 /dinas-pendidikan
-/dinas-pendidikan/*
+/node_modules
