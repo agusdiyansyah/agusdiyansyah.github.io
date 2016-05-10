@@ -1,0 +1,152 @@
+.navbar-toggle {
+    float: right;
+    z-index: 10000;
+    margin: 15px;
+}
+
+.navbar {
+	background-color: #fff;
+	border: none;
+}
+
+.navbar .navbar-header .navbar-brand {
+	background-image: url(../images/logo-fbs.png);
+	background-size: 55px;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 55px;
+	width: 55px;
+}
+
+.navbar .navbar-nav,
+.navbar .dropdown-menu {
+	/*background-color: rgba(0,0,0,.5);*/
+}
+
+.navbar .navbar-nav>li>a {
+	-webkit-transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        color .5s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+    transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        color .5s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+    font-weight: 600
+}
+
+.navbar .navbar-nav>li>a,
+.navbar .navbar-nav>li:hover>a,
+.navbar .dropdown-menu>li>a {
+    color: #2B2B2B !important;
+}
+
+.nav.navbar-nav>li>a {
+	-webkit-transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        background-color .2s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+    transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        background-color .2s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+}
+
+.nav.navbar-nav>li:hover>a {
+	background-color: rgba(0,0,0,.1)
+}
+
+.navbar.navbar-default .navbar-nav>.dropdown.open>a, 
+.navbar.navbar-default .navbar-nav>.dropdown.open>a:focus, 
+.navbar.navbar-default .navbar-nav>.dropdown.open>a:hover,
+.navbar.navbar-default .navbar-nav>.active>a, 
+.navbar.navbar-default .navbar-nav>.active>a:focus, 
+.navbar.navbar-default .navbar-nav>.active>a:hover {
+    background-color: rgba(255,255,255,.1) !important;
+}
+
+.navbar .navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/*.navbar .navbar-nav>li.active.open>a,*/
+.navbar .dropdown-menu>li:hover>a {
+	background-color: rgba(255,255,255,.3) !important;
+}
+
+.navbar .dropdown-menu {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-top: 1px solid #919191
+}
+
+.navbar .dropdown-menu>li>a {
+    display: block;
+    padding: 15px 20px;
+}
+
+/*XS*/
+@media (max-width: 767px) {
+	.navbar-toggle {
+		background-color: #fff;
+		border-radius: 0px;
+	}
+
+	.navbar {
+		background-color: #fff
+	}
+
+	.navbar .navbar-brand {
+		display: none;
+	}
+
+	.navbar .navbar-nav {
+		background-color: transparent;
+	}
+
+	.navbar .navbar-nav>li>a,
+	.navbar .navbar-nav>li:hover>a,
+	.navbar .dropdown-menu>li>a {
+	    color: #000 !important
+	}
+
+	.navbar.navbar-default .navbar-nav>.open>a, 
+	.navbar.navbar-default .navbar-nav>.open>a:focus, 
+	.navbar.navbar-default .navbar-nav>.open>a:hover {
+	    color: #000;
+	    background-color: #fff !important;
+	}
+
+	.navbar.navbar-default .navbar-nav>.active>a, 
+	.navbar.navbar-default .navbar-nav>.active>a:focus, 
+	.navbar.navbar-default .navbar-nav>.active>a:hover {
+	    background: #fff!important;
+	}
+}
+
+/* SM keatas */
+@media (min-width: 768px) {
+    .navbar .navbar-brand {
+        position: fixed;
+        top: 2px;
+        -webkit-transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+            top .5s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+        transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+            top .5s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+    }
+
+    .navbar {
+        border-bottom: 1px solid #C6C6C6
+    }
+
+    .navbar,
+    .navbar .dropdown-menu {
+        background-color: #F7F7F7
+    }
+
+    .navbar .dropdown-menu {
+        border-top: 1px solid #DADADA
+    }
+
+    .navbar .dropdown-menu>li:hover>a {
+        background-color: #DADADA !important
+    }
+
+    .navbar .navbar-nav {
+        background-color: transparent;
+    }
+}

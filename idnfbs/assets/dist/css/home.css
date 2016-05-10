@@ -1,0 +1,605 @@
+/*.banner {
+    height: 630px;
+    overflow-y: hidden;
+}
+
+.banner .video {
+    width: 100%;
+    background-size: cover;
+    position:relative;
+    overflow:hidden;
+}
+
+.banner header {
+    z-index: 1;
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 250px;
+}
+
+.banner header div {
+    text-align: center;
+    color: #fff
+}
+
+.banner header div h1 {
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-size: 2.5em;
+}
+
+.banner header div p {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.banner header div img {
+    width: 100px;
+}*/
+
+.banner {
+    height: 600px;
+    background-image: url(../images/akun.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: #fff
+}
+
+.banner:before {
+    content: "";
+    position: absolute;
+    background: rgba(0,0,0,.4);
+    height: 600px;
+    width: 100%;
+    /*top: 0;*/
+    left: 0;
+}
+
+.banner .money {
+    background-image: url(../images/Money-2-icon.png);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.banner .wrap {
+    display: table;
+    height: 600px;
+    width: 100%;
+}
+
+.banner .item {
+    display: table-cell !important;
+    vertical-align: middle;
+}
+
+.bulatan-tiga .responsive-circle {
+    font-size: 50px;
+}
+
+.bulatan-tiga .item-bulat {
+    text-align: center;
+}
+
+.bulatan-tiga .item-bulat h4 {
+    color: #70ae45;
+    font-weight: 600;
+    /*font-size: 30px*/
+}
+
+.jumlah .counter {
+    font-size: 2.5em;
+    padding: 5px 0 0;
+    font-weight: 700
+}
+
+.jumlah span {
+    font-weight: 600
+}
+
+.jumlah .gambar-1 {
+    background: url(../images/Customer-service.jpg) no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: 100% 0;
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.jumlah .gambar-2 {
+    background: url(../images/trader_aktif.jpg) no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: 100% 0;
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.about {
+    text-align: center;
+    line-height: 18pt
+}
+
+.about h2 {
+    margin: 0 0 50px;
+    color: #70ae45
+}
+
+.about p {
+    margin: 0 0 30px;
+}
+
+.about img {
+    margin-top: 40px;
+}
+
+.promosi .responsive-circle {
+    font-size: 2em;
+    /*margin-left: 0px;*/
+    width: 75%;
+}
+
+.promosi h2 {
+    color: #555;
+    margin: 0 0 70px;
+    font-weight: 600
+}
+
+.promosi p {
+    color: #444;
+    font-size: 16px;
+}
+
+.promosi button {
+    margin-bottom: 0px;
+}
+
+.akun {
+    padding-top: 20px;
+}
+
+h2 span {
+    color: #70ae45
+}
+
+.akun .content h2 {
+    color: #fff;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+.akun .title h2 {
+    margin-top: 130px;
+    width: 100%
+}
+
+.akun .title img {
+    width: 100%;
+    margin-bottom: -1px;
+}
+
+/*.akun .content:before {
+    content: '';
+    position: absolute;
+    width:100%; min-height: 100%;
+    top:0; left:0;
+    z-index: -1;
+    opacity: .5;
+    background: rgba(0, 0, 0, 0.8);
+}*/
+
+.akun .content {
+    background: url(../images/akun.jpg), rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 700px;
+    max-width: 100%;
+    -webkit-clip-path: polygon(0 0, 48% 0, 50% 3%, 52% 0, 100% 0, 100% 95%, 52% 95%, 50% 98%, 48% 95%, 0 95%);
+    clip-path: polygon(0 0, 48% 0, 50% 3%, 52% 0, 100% 0, 100% 95%, 52% 95%, 50% 98%, 48% 95%, 0 95%);
+    /*position: relative;*/
+}
+
+.akun .content .responsive-circle-2 {
+    font-size: 2em;
+    opacity: .8
+}
+
+.akun .icon {
+    width: 50px;
+    height: 70px;
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+    margin: auto;
+}
+
+.akun .icon img {
+    bottom: 0;
+    position: relative;
+}
+
+.akun .content h4,
+.akun .content p {
+    color: #e7e7e7
+}
+
+.akun .content .row {
+    margin-right: 0;
+}
+
+.akun .demo button {
+    margin: 15px 0;
+}
+
+.akun .demo {
+    margin-top: 50px;
+}
+
+.aplikasi h2 {
+    margin: 0 0 80px;
+}
+
+.selesai .content {
+    color: #fff;
+    -webkit-clip-path: polygon(0 0, 48% 0, 50% 9%, 52% 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 48% 0, 50% 9%, 52% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.selesai .content h2 {
+    margin-bottom: 20px;
+    font-weight: 700
+}
+
+.kemitraan h2,
+.kemitraan h5 {
+    margin-bottom: 20px
+}
+
+.kemitraan h2 {
+    font-weight: 600
+}
+
+.kemitraan h5 {
+    font-weight: 600
+}
+
+.kemitraan img {
+    width: 25%;
+    padding: 20px 0;
+}
+
+.kemitraan button {
+    font-size: 1em;
+    text-align: left
+}
+
+.event {
+    padding-bottom: 80px;
+}
+
+.event .title {
+    margin-bottom: 50px;
+}
+
+.event .title h2 {
+    font-weight: 600
+}
+
+.event .poster .image {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: left top;
+}
+
+.event .poster h4 {
+    font-weight: 600;
+    color: #70ae45;
+    margin: 15px 0 5px;
+}
+
+.owl-theme .owl-controls .owl-page {
+    display: inline-block;
+}
+.owl-theme .owl-controls .owl-page span {
+    background: none repeat scroll 0 0 #869791;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 7px;
+    opacity: 0.5;
+    width: 12px;
+}
+
+.blog h2 {
+    margin-bottom: 50px;
+}
+
+.blog .content {
+    margin-bottom: 50px;
+}
+
+.blog .content .image {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog .meta-blog {
+    color: rgb(117, 117, 117)
+}
+
+.galery h2 {
+    margin-bottom: 50px;
+}
+
+.galery button,
+.blog button {
+    margin: 0 15px;
+}
+
+.galery .image {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.galery .image-2 {
+    background-size: cover;
+    background-position: center;
+    height: 195px;
+    margin-bottom: 10px
+}
+
+.galery .row-1 {
+    margin-bottom: 40px;
+}
+
+.video .player {
+    height: 300px;
+}
+
+.video h2 {
+    margin-top: 0px;
+}
+
+.inovasi {
+    color: #fff;
+    z-index: -1;
+    padding: 50px 0;
+}
+
+.inovasi p {
+    margin-bottom: 50px;
+}
+
+.inovasi button {
+    border-radius: 3px;
+    color: #70AE45;
+    font-weight: 600;
+    font-size: 1em
+}
+
+.inovasi button:hover {
+    color: #669e3e;
+}
+
+.inovasi button.btn-tooltip {
+    /*position: relative*/
+}
+
+.callout {
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    left: 47%;
+    bottom: -100px;
+    text-align: center;
+    padding: 25px 15px 15px;
+    color: #555;
+    font-size: .75em;
+    z-index: 1;
+    -webkit-clip-path: polygon(0 15%, 45% 15%, 50% 0, 55% 15%, 100% 15%, 100% 100%, 0 100%);
+    clip-path: polygon(0 15%, 45% 15%, 50% 0, 55% 15%, 100% 15%, 100% 100%, 0 100%);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+}
+
+.callout p {
+    line-height: 15pt;
+}
+
+.dukungan h2 {
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.dukungan .image {
+    background-image: url(../images/persib.png);
+    background-size: 800px 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.dukungan .logo {
+    background-image: url(../images/logo-persib.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 150px;
+    height: 88px;
+    margin-right: 35px;
+    border-right: 1px solid #555
+}
+
+.dukungan p {
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-weight: 600;
+    height: 88px;
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+/*.dukungan .logo:after {
+    content: "FBS Sponsor Resmi Tim Persib! Bermain di Super Liga Forex.";
+    text-align: left;
+    right: 211px;
+    top: 19px;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.5;
+    width: 315px;
+    position: absolute;
+}*/
+
+
+
+
+
+
+
+
+
+
+/* XS */
+@media (max-width: 767px) {
+    .banner header {
+        left: 10%;
+        right: 10%;
+    }
+    .banner p {
+        display: none
+    }
+    .bulatan-tiga .item-bulat h4 {
+        font-size: 30px
+    }
+    .bulatan-tiga .item-bulat p {
+        font-size: 18px;
+        margin-bottom: 30px
+    }
+    .jumlah span {
+        font-size: 20px;
+    }
+    .about p {
+        font-size: 18px;
+        padding: 0 20px;
+    }
+    .promosi {
+        display: none;
+    }
+    /*.promosi {
+        padding: 80px;
+    }
+    .promosi p {
+        padding-bottom: 0px !important;
+        margin-top: 5%;
+        text-align: left;
+        font-size: 20px !important;
+    }
+    .promosi .responsive-circle {
+        width: 100%;
+    }*/
+    .akun {
+        background: #F9F8F8;
+        padding: 0 80px;
+    }
+    .akun .title,
+    .akun .icon {
+        display: none
+    }
+    .akun .content h2 {
+        color: #000;
+        text-align: center;
+    }
+    .akun .content h4,
+    .akun .content p {
+        color: #000
+    }
+    .akun .content h4 {
+        font-size: 2em
+    }
+    .akun .content p {
+        font-size: 1.5em;
+        line-height: 20pt
+    }
+    .akun .content:before {
+        background-image: none
+    }
+    .akun .content {
+        background: none;
+        height: auto;
+        -webkit-clip-path: none;
+        clip-path: none;
+        text-align: left;
+    }
+    .akun .demo {
+        margin-top: 20px;
+    }
+    /*.responsive-circle-2 {
+        display: none;
+    }*/
+    .default_btn_bordered {
+        background: transparent;
+        -webkit-box-shadow:inset 0px 0px 0px 1px rgba(0, 0, 0, 0.8);
+        -moz-box-shadow:inset 0px 0px 0px 1px rgba(0, 0, 0, 0.8);
+        box-shadow:inset 0px 0px 0px 1px rgba(0, 0, 0, 0.8);
+        font-size: 1.3em;
+        border-radius: 3px;
+        color: rgba(0, 0, 0, 0.8);
+        margin-bottom: 30px;
+    }
+
+    .default_btn_bordered:hover {
+        background: transparent;
+        -webkit-box-shadow:inset 0px 0px 0px 1px rgba(0, 0, 0, 1);
+        -moz-box-shadow:inset 0px 0px 0px 1px rgba(0, 0, 0, 1);
+        box-shadow:inset 0px 0px 0px 1px rgba(0, 0, 0, 1);
+        color: rgba(0, 0, 0, 1);
+    }
+    .aplikasi h2 {
+        margin: 0 0 50px;
+    }
+}
+
+
+/* SM */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* MD */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .galery .row-1 [class^="col-"] {
+        padding-left: 15px;
+        padding-right: 8px
+    }
+
+    .galery .row-2 [class^="col-"] {
+        padding-left: 3px;
+        padding-right: 8px
+    }
+}
+
+/* LG */
+@media (min-width: 1200px) {
+    .galery .row-1 [class^="col-"] {
+        padding-left: 15px;
+        padding-right: 8px
+    }
+
+    .galery .row-2 [class^="col-"] {
+        padding-left: 3px;
+        padding-right: 8px
+    }
+}

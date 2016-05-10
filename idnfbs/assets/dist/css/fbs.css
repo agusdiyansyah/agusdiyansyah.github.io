@@ -1,0 +1,823 @@
+.arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 30px 0 30px;
+    border-color: #fff transparent transparent transparent;
+    display: inline-block;
+}
+
+.header {
+    min-height: 780px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+.header:before {
+    background-color: rgba(0,0,0,.6);
+}
+
+.header .logo {
+    background-image: url(../images/logo-fbs-100x100.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    margin-right: 15px;
+}
+
+.header .title .title-2 div {
+    display: inline-block;
+    vertical-align: top
+}
+
+.header .title {
+    margin-top: 150px;
+}
+
+.header .title h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 35pt;
+    line-height: 32pt;
+}
+
+.header .title .btn {
+    margin: 10px 0 0 0;
+    border-radius: 0px;
+}
+
+.promo {
+    margin-top: -180px;
+}
+
+.promo .item {
+    padding: 20px 30px;
+    min-height: 290px;
+    margin-bottom: 15px;
+}
+
+.promo .item .icon {
+    background-position: center;
+    background-size: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.promo .item h3 {
+    min-height: 50px;
+    margin-bottom: 15px;
+}
+
+.promo .item h3,
+.promo .item p {
+    line-height: 20pt;
+}
+
+.marketing .tropi {
+    margin-top: 50px;
+    background-image: url(../images/awards-main.png);
+    background-position: bottom center;
+    background-size: 523px 80px;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.jumlah .counter {
+    font-size: 2.5em;
+    padding: 5px 0 0;
+    font-weight: 700
+}
+
+.jumlah span {
+    font-weight: 600
+}
+
+.jumlah .gambar {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: 100% 0;
+    text-align: center;
+    color: #fff;
+}
+
+.jumlah .gambar .wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.jumlah .gambar .icon {
+    height: 60px;
+    width: 60px;
+    background-position: center;
+    background-size: 60px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.syarat {
+    padding-top: 80px;
+}
+
+.syarat h1 {
+    margin-bottom: 100px;
+}
+
+.syarat .icon {
+    background-position: center;
+    background-size: 60px;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.syarat h4 {
+    margin: 0 0 40px;
+    line-height: 18pt;
+}
+
+.mikir .image {
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/Thinking-Asian-Man.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+.mikir h1 {
+    margin-top: 100px;
+}
+
+.akun {
+    background-image: url(../images/akun.jpeg);
+}
+
+.akun h1 {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.akun .success_btn {
+    margin-bottom: 110px;
+}
+
+.akun .icon {
+    background-image: url(../images/acc_logos.svg);
+    background-size: 100% auto!important;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+}
+
+.akun .standar .icon {
+    background-position: 0 -240px;
+}
+
+.akun .sen .icon {
+    background-position: 0 0;
+}
+
+.akun .mikro .icon {
+    background-position: 0 -120px;
+}
+
+.akun .zero .icon {
+    background-position: 0 -360px;
+}
+
+.akun .unl .icon {
+    background-position: 0 -480px;
+}
+
+.akun .btn {
+    border: none;
+    border-radius: 0px;
+    color: #fff
+}
+
+.akun .standar .btn {
+    background-color: #457A93
+}
+.akun .sen .btn {
+    background-color: #65A33E 
+}
+
+.akun .mikro .btn {
+    background-color: #7A6492
+}
+
+.akun .zero .btn {
+    background-color: #A77D3B
+}
+
+.akun .unl .btn {
+    background-color: #5B5B5B
+}
+
+
+.blend {
+    background-color: #fff;
+    margin-top: -30px;
+    mix-blend-mode: screen;
+    -webkit-mix-blend-mode: screen;
+}
+
+.blend .arrow {
+    border-color: #000 transparent transparent transparent;
+}
+
+.app.double-padding {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.app .icon {
+    background-color: #fff;
+    width: 100%;
+    height: auto
+}
+
+.app .link-icon {
+    background-image: url(../images/platform.svg);
+    background-size: auto!important;
+    width: 86px;
+    height: 86px;
+    display: inline-block;
+}
+
+.app .link-icon.windows {
+    background-position: 344px 0;
+    -webkit-transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        background-position .5s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+    transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        background-position .5s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+}
+
+.app a:hover .link-icon.windows {
+    background-position: 344px -86px;
+}
+
+.app .link-icon.android {
+    background-position: 258px 0;
+    -webkit-transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        background-position .5s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+    transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        background-position .5s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+}
+
+.app a:hover .link-icon.android {
+    background-position: 258px -86px;
+}
+
+.app .link-icon.ios {
+    background-position: 172px 0;
+    -webkit-transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        background-position .5s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+    transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        background-position .5s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+}
+
+.app a:hover .link-icon.ios {
+    background-position: 172px -86px;
+}
+
+.app .link-icon.web {
+    background-position: 86px 0;
+    -webkit-transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        background-position .5s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+    transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        background-position .5s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+}
+
+.app a:hover .link-icon.web {
+    background-position: 86px -86px;
+}
+
+.app a {
+    text-decoration: none;
+}
+
+.app h5.link-download {
+    font-weight: 600;
+    font-size: 12pt;
+    line-height: 18pt;
+    margin-top: -30px;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        margin-top .5s cubic-bezier(0.615, 0.000, 0.305, 0.845),
+        opacity .5s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+    transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        margin-top .5s cubic-bezier(0.615, 0.000, 0.305, 0.845),
+        opacity .5s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+}
+
+.app a:hover h5 {
+    margin-top: 10px;
+    opacity: 1;
+}
+
+.app .icon,
+.app .link-download {
+    position: relative;
+}
+
+.app .icon {
+    z-index: 2;
+    background-color: #fff
+}
+
+.app .link-download {
+    z-index: 1;
+}
+
+
+/* RESPONSIVE AREA */
+
+/* XS */
+@media (max-width: 767px) {
+    br {
+        display: none;
+    }
+
+    .syarat {
+        padding-bottom: 80px;
+    }
+
+    .mikir {
+        display: none;
+    }
+
+    .akun .icon,
+    .akun .text {
+        display: inline-block;
+    }
+
+    .akun .text {
+        width: 450px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+}
+
+/* SM */
+@media (min-width: 768px) and (max-width: 991px) {
+    br {
+        display: none;
+    }
+
+    .jumlah .gambar {
+        height: 500px;
+    }
+
+    .jumlah .gambar .icon {
+        width: 100px;
+        height: 100px;
+        background-size: 100px;
+    }
+
+    .jumlah span {
+        font-size: 20pt;
+    }
+
+    .syarat {
+        padding-bottom: 80px;
+    }
+
+    .mikir {
+        display: none;
+    }
+
+    .akun .icon,
+    .akun .text {
+        display: inline-block;
+    }
+
+    .akun .text {
+        width: 450px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+}
+
+.kemitraan h2,
+.kemitraan h5 {
+    margin-bottom: 20px
+}
+
+.kemitraan h2 {
+    font-weight: 600
+}
+
+.kemitraan h5 {
+    font-weight: 600
+}
+
+.kemitraan img {
+    width: 25%;
+    padding: 20px 0;
+}
+
+.kemitraan .image {
+    background-image: url(../images/bigstock-Young-man-looking-up-19469312.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.kemitraan button {
+    font-size: 1em;
+    text-align: left;
+    padding: 10px;
+    /*padding-left: 60px;*/
+}
+
+.kemitraan button .icon {
+    background-image: url(../images/kemitraan-btn.svg);
+    background-repeat: no-repeat;
+    background-size: auto;    
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.kemitraan button .title {
+    padding-left: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.kemitraan button.success_btn .icon {
+    background-position: 0 0;
+}
+
+.kemitraan button.info_btn .icon {
+    background-position: -40px 0;
+}
+
+.event {
+    padding-bottom: 80px;
+}
+
+.event .title {
+    margin-bottom: 50px;
+}
+
+.event .title h2 {
+    font-weight: 600
+}
+
+.event .poster .image {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: left top;
+    position: relative;
+}
+
+.event .poster .image:hover .overlay {
+    background-color: transparent;
+    -webkit-transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        all .2s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+    transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        all .2s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+}
+
+.event .poster .image:hover .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event .poster a  {
+    text-decoration: none;
+}
+
+.event .poster .image:hover .overlay a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    /*text-decoration: none;*/
+    border: 3px solid #fff;
+}
+
+.event .poster .image:hover .overlay a:hover {
+    border-color: #62973E;
+}
+
+.event .poster .image:hover .overlay a:hover .icon {
+    background-color: #62973E;
+}
+
+.event .poster .image .overlay a {    
+    display: none;
+    border: none;
+    -webkit-transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        all .2s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+    transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        all .2s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+}
+
+
+.event .poster .image .overlay a .icon {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    -webkit-mask-size: 25px 25px;
+    -webkit-mask-position: 45% 45%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-origin: border-box;
+    display: inline-block;
+    -webkit-transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        all .2s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+    transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        all .2s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+}
+
+.event .poster .image .overlay a.zoom .icon {
+    -webkit-mask-image: url(../images/zoom-in.svg);
+}
+
+.event .poster .image .overlay a.link-event .icon {
+    -webkit-mask-image: url(../images/link-symbol.svg);
+}
+
+.event .poster h4 {
+    font-weight: 600;
+    color: #70ae45;
+    margin: 15px 0 5px;
+}
+
+.event .owl-carousel .owl-dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #C7C7C7;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    -webkit-box-shadow: inset 0px 0px 0px 0px #fff,0px 0px 0px 0px #61963D;
+    -moz-box-shadow: inset 0px 0px 0px 0px #fff,0px 0px 0px 0px #61963D;
+    box-shadow: inset 0px 0px 0px 0px #fff,0px 0px 0px 0px #61963D;
+
+    -webkit-transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        all .75s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+    transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        all .75s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+}
+
+.event .owl-carousel .owl-dot.active {
+    background-color: #61963D;
+    -webkit-box-shadow: inset 0px 0px 0px 2px #fff,0px 0px 0px 2px #61963D;
+    -moz-box-shadow: inset 0px 0px 0px 2px #fff,0px 0px 0px 2px #61963D;
+    box-shadow: inset 0px 0px 0px 2px #fff,0px 0px 0px 2px #61963D;
+
+}
+
+.blog .content {
+    margin-bottom: 50px;
+}
+
+.blog .content .item .image {
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.blog .content .item .image .overlay {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(97,150,61,.8);
+    opacity: 0;
+
+    -webkit-transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        all .2s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+    transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        all .2s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+}
+
+.blog .content .item .image .overlay i {
+    font-size: 24pt;
+    color: #fff
+}
+
+.blog .content .item:hover .image .overlay {
+    opacity: 1
+}
+
+.blog .content .item h3 {
+    color: #3D3D3D;
+
+    -webkit-transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        all .2s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+    transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        all .2s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+}
+
+.blog .content .item:hover h3 {
+    color: #61963D
+}
+
+.blog .meta-blog {
+    margin-top: 10px;
+    color: rgb(117, 117, 117)
+}
+
+.galery button,
+.blog button {
+    margin: 0 15px;
+}
+
+.galery .item {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+    cursor: pointer;   
+    padding: 0px;   
+
+    font-weight: 600;
+    color: #fff       
+}
+
+.galery .item:hover .overlay {
+    opacity: 1;
+    -webkit-transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        all .2s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+    transition: cubic-bezier(0.615, 0.000, 0.305, 0.845), 
+        all .2s cubic-bezier(0.615, 0.000, 0.305, 0.845);
+}
+
+.galery .item .overlay {
+    background-color: rgba(97,150,61,.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    opacity: 0;
+}
+
+.galery .item-besar {
+    height: 450px;
+}
+
+.galery .item-kecil {
+    height: 223px;
+}
+
+.galery .col-tile {
+    padding: 2px;
+}
+
+
+
+.video .player {
+    height: 300px;
+}
+
+.video h2 {
+    margin-top: 0px;
+}
+
+.inovasi {
+    color: #fff;
+    z-index: -1;
+    padding: 50px 0;
+}
+
+.inovasi article {
+    margin-bottom: 50px;
+}
+
+.inovasi button {
+    border-radius: 3px;
+    color: #70AE45;
+    font-weight: 600;
+    font-size: 1em
+}
+
+.inovasi button:hover {
+    color: #669e3e;
+}
+
+.callout {
+    width: 300px;
+    /*height: 100px;*/
+    background-color: #fff;
+    position: absolute;
+    left: 47%;
+    bottom: -118px;
+    text-align: center;
+    padding: 25px 15px 0;
+    color: #555;
+    font-size: .75em;
+    z-index: 1;
+    -webkit-clip-path: polygon(0 15%, 45% 15%, 50% 2%, 55% 15%, 100% 15%, 100% 100%, 0 100%);
+    clip-path: polygon(0 15%, 45% 15%, 50% 2%, 55% 15%, 100% 15%, 100% 100%, 0 100%);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+}
+
+.callout p {
+    line-height: 15pt;
+}
+
+.dukungan h2 {
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.dukungan .image {
+    background-image: url(../images/persib.png);
+    background-size: 800px 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.dukungan .logo {
+    background-image: url(../images/logo-persib.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 150px;
+    height: 88px;
+    margin-right: 35px;
+    border-right: 1px solid #555
+}
+
+.dukungan p {
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-weight: 600;
+    height: 88px;
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+
+/* XS */
+@media (max-width: 767px) {
+    .event .poster .image {
+        height: 380px;
+    }
+
+    .event .owl-carousel .owl-dot {
+        margin-top: 20px;
+    }
+}
+
+/* MD */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/* SM keatas */
+@media (min-width: 768px) {
+    .akun .text p {
+        min-height: 135px;
+    }
+
+    .event .owl-carousel .owl-dot {
+        margin-top: 30px;
+    }
+}
+
+/* LG */
+@media (min-width: 1200px) {
+
+}

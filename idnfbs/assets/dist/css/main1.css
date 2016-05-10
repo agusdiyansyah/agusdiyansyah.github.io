@@ -1,0 +1,250 @@
+body {
+    font-family: open sans,Helvetica,Arial,sans-serif;
+    color: #363636;
+    background: #f5f5f5
+}
+
+.bg-1 {
+    background: #fff
+}
+
+.bg-2 {
+    background: #70ae45;
+}
+
+.bg-3 {
+    background: #222
+}
+
+.title-3 {
+    color: #70ae45;
+}
+
+.double-padding {
+    padding: 80px 0
+}
+
+p, a {
+    line-height: 25pt;
+    font-size: 14pt
+}
+
+a {
+    color: #5c869a;
+    font-weight: 600
+}
+
+a i {
+    font-size: 12pt !important;
+    margin-left: 5px;
+}
+
+h2 {
+    line-height: 30pt;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 28pt;
+    line-height: 40pt;
+}
+
+.responsive-circle,
+.responsive-circle-2 {
+    font-weight: 700;
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+.responsive-circle i,
+.responsive-circle-2 i {
+    color: #fff
+}
+
+.responsive-circle::after {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 0;
+    margin-bottom: 20px;
+    padding-bottom: 100%;
+    width: 100%;
+    background: #78bb49
+}
+
+.responsive-circle div,
+.responsive-circle-2 div {
+    float: left;
+    line-height: 1em;
+    margin-top: -0.5em;
+    padding-top: 50%;
+    text-align: center;
+    width: 100%;
+}
+
+.responsive-circle-2::after {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 0;
+    margin-bottom: 20px;
+    padding-bottom: 100%;
+    width: 100%;
+    background: transparent;
+    -webkit-box-shadow:inset 0px 0px 0px 3px rgba(255, 255, 255, 0.8);
+    -moz-box-shadow:inset 0px 0px 0px 3px rgba(255, 255, 255, 0.8);
+    box-shadow:inset 0px 0px 0px 3px rgba(255, 255, 255, 0.8);
+}
+
+.success_btn, .info_btn {
+    border-radius: 3px;
+    font-weight: 700;
+    margin: 25px 15px;
+    color: #fff
+}
+
+.success_btn {
+    background: #70ae45;
+}
+
+.success_btn:hover {
+    background: #78bb49;
+    color: #fff
+}
+
+.default_btn_bordered {
+    background: transparent;
+    -webkit-box-shadow:inset 0px 0px 0px 1px rgba(255, 255, 255, 0.8);
+    -moz-box-shadow:inset 0px 0px 0px 1px rgba(255, 255, 255, 0.8);
+    box-shadow:inset 0px 0px 0px 1px rgba(255, 255, 255, 0.8);
+    font-size: .8em;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.default_btn_bordered:hover {
+    background: transparent;
+    -webkit-box-shadow:inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+    -moz-box-shadow:inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+    box-shadow:inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar {
+    padding: 0 100px;
+    border-radius: 0px;
+    background: rgba(255,255,255,.8);
+    /*min-height: 85px;*/
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+/*.navbar .login-btn {
+    background: #70ae45;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 50px;
+}
+
+.navbar .login-btn:hover {
+    background: #76b44b;
+}*/
+
+.navbar li.login-btn a,
+.navbar li.login-btn a:hover {
+    color: #fff;
+}
+
+.navbar li a {
+    padding: 15px;
+    font-weight: 600;
+    font-size: 1em
+}
+
+/*.navbar li {
+    margin: 7.5px;
+}*/
+
+/*.navbar-brand {
+     padding: 0;
+     margin: 5px;
+     background: url(../images/logo-fbs.png) no-repeat;
+     height: 53px;
+     width: 53px;
+}*/
+
+.navbar-collapse {
+    border-top: 0px;
+}
+
+.login-wraper {
+    text-align: right;
+    /*margin: 15px 0;*/
+}
+
+.login-wraper .row {
+    display: flex;
+    align-items: center;
+}
+
+.login-wraper .logo {
+    background-image: url(../images/logo-fbs.png);
+    width: 53px;
+    height: 53px;
+
+}
+
+.login-wraper a {
+    font-size: 12pt;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.login-wraper .btn-signup {
+    background-color: #60953C;
+    margin-right: 15px;
+    font-size: 12pt;
+    border-radius: 2px;
+    padding: 10px 15px;
+    border: none;
+}
+
+/* MOBILE */
+@media (max-width: 540px) {
+    .navbar {
+        padding: 15px 50px;
+        border-radius: 0px;
+        background: #fff;
+        min-height: 85px;
+        border-bottom: 0px;
+    }
+    .navbar .login-btn {
+        margin-left: 0px;
+    }
+}
+
+/* XS */
+@media (max-width: 767px) {
+    .navbar .login-btn {
+        margin-left: 0px;
+    }
+    .responsive-circle {
+        width: 25%;
+    }
+}
+
+/* SM */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar .login-btn {
+        margin-left: 0px;
+    }
+}
+
+/* MD */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* LG */
+@media (min-width: 1200px) {
+
+}
