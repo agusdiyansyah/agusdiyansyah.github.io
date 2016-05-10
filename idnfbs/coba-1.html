@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Title Page</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <style>
+            /*.wrp {
+                display: inline-block;
+            }
+            .col {
+                display: inline-block;
+                width: 450px;
+                height: 450px;
+            }
+            .item {
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                cursor: pointer;
+                position: relative;
+                float: left;
+            }
+            .item .overlay {
+                opacity: 0;
+            }
+            .item:hover .overlay {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                padding: 30px;
+                background-color: rgba(97,150,61,.8);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                opacity: 1;
+
+                font-weight: 600;
+                color: #fff;
+            }
+            .item-besar {
+                width: 100%;
+                height: 97%;
+                margin: 1% 1% 0;
+            } 
+            .item-kecil {
+                width: 48%;
+                height: 48%;
+                display: inline-block;
+                margin: .75%;
+            } */
+
+            .galery .item {
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;   
+                cursor: pointer;   
+                padding: 0px;   
+
+                font-weight: 600;
+                color: #fff       
+            }
+
+            .galery .item:hover .overlay {
+                opacity: 1
+            }
+
+            .galery .item .overlay {
+                background-color: rgba(0,0,0,.8);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 100%;
+                padding: 30px;
+                opacity: 0;
+            }
+
+            .galery .item-besar {
+                height: 450px;
+            }
+
+            .galery .item-kecil {
+                height: 223px;
+            }
+
+            .galery .col-tile {
+                padding: 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="wrp">
+                        <div class="col">
+                            <div class="item item-besar" style="background-image: url(assets/dist/images/inl-0.jpg)">
+                                <div class="overlay">Lorem ipsum Veniam adipisicing quis occaecat tempor fugiat.</div>
+                            </div>
+                        </div>                    
+                        <div class="col">
+                            <div class="item item-kecil" style="background-image: url(assets/dist/images/cent-0.jpg)">
+                                <div class="overlay">Lorem ipsum Consectetur laborum cillum.</div>
+                            </div>
+                            <div class="item item-kecil" style="background-image: url(assets/dist/images/standar-banner.jpg)">
+                                <div class="overlay">Lorem ipsum Culpa Excepteur sint ullamco.</div>
+                            </div>
+                            <div class="item item-kecil" style="background-image: url(assets/dist/images/mikro-0.jpg)">
+                                <div class="overlay">Lorem ipsum Et esse ex.</div>
+                            </div>
+                            <div class="item item-kecil" style="background-image: url(assets/dist/images/zero-0.jpeg)">
+                                <div class="overlay">Lorem ipsum Excepteur aliquip laboris.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12 col-tile">
+                            <div class="col-md-12 item item-besar" style="background-image: url(assets/dist/images/inl-0.jpg)">
+                                <div class="overlay">Lorem ipsum Ullamco dolore magna dolor do.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 col-tile">
+                            <div class="col-md-12 item item-kecil" style="background-image: url(assets/dist/images/cent-0.jpg)">
+                                <div class="overlay">Lorem ipsum Sunt Excepteur labore.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 col-tile">
+                            <div class="col-md-12 item item-kecil" style="background-image: url(assets/dist/images/standar-banner.jpg)">
+                                <div class="overlay">Lorem ipsum Velit sit labore consectetur aliqua.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-tile">
+                        <div class="col-md-6 col-sm-6 hidden-xs col-tile">
+                            <div class="col-md-12 item item-kecil" style="background-image: url(assets/dist/images/mikro-0.jpg)">
+                                <div class="overlay">Lorem ipsum Id in nisi esse ex sit.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 hidden-xs col-tile">
+                            <div class="col-md-12 item item-kecil" style="background-image: url(assets/dist/images/zero-0.jpeg)">
+                                <div class="overlay">Lorem ipsum In ex nulla ad.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
