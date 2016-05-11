@@ -8,7 +8,7 @@
 }
 
 .header {
-    min-height: 780px;
+    min-height: 680px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100% 100%;
@@ -21,10 +21,10 @@
 .header .logo {
     background-image: url(../images/logo-fbs-100x100.jpg);
     background-repeat: no-repeat;
-    background-size: 100px;
+    background-size: 95px;
     background-position: center;
-    height: 100px;
-    width: 100px;
+    height: 95px;
+    width: 95px;
     margin-right: 15px;
 }
 
@@ -34,23 +34,23 @@
 }
 
 .header .title {
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .header .title h1 {
     margin-top: 0px;
     margin-bottom: 10px;
-    font-size: 35pt;
-    line-height: 32pt;
+    font-size: 3em;
+    line-height: 28pt;
 }
 
 .header .title .btn {
-    margin: 10px 0 0 0;
+    margin: 15px 0 0 0;
     border-radius: 0px;
 }
 
 .promo {
-    margin-top: -180px;
+    margin-top: -150px;
 }
 
 .promo .item {
@@ -146,10 +146,14 @@
     line-height: 18pt;
 }
 
+.mikir {
+    padding-top: 80px;
+}
+
 .mikir .image {
     height: 300px;
     width: 100%;
-    background-image: url(../images/Thinking-Asian-Man.jpg);
+    background-image: url(../images/Thinking-Asian-Man.png);
     background-size: cover;
     background-position: 100% 100%;
 }
@@ -432,7 +436,7 @@
 }
 
 .kemitraan .image {
-    background-image: url(../images/bigstock-Young-man-looking-up-19469312.jpg);
+    background-image: url(../images/bigstock-Young-man-looking-up-19469312.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -132,8 +132,8 @@
             </div>
         </section>
 
-        <section class="syarat bg-1">
-            <div class="container text-center">
+        <section class="syarat">
+            <div class="container text-center bg-1 double-padding">
                 <div class="row">
                     <div class="col-md-12">
                         <h1 class="fw-600 title-3">Persyaratan Yang Transparan</h1>
@@ -169,7 +169,7 @@
             </div>
         </section>
 
-        <section class="mikir bg-1">
+        <section class="mikir">
             <div class="container">
                 <div class="row">
                     <div class="col-md-push-1 col-md-4">

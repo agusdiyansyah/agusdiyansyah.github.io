@@ -1,7 +1,7 @@
 body {
     font-family: open sans,Helvetica,Arial,sans-serif;
     color: #3D3D3D;
-    font-size: 14px;
+    font-size: 1.4em;
 }
 
 body .link {
@@ -204,12 +204,13 @@ h2 {
     font-weight: 700;
     /*margin: 25px 15px;*/
     color: #fff;
-    font-size: 14px !important;
+    font-size: 1.4em !important;
     border: none;
 }
 
 .success_btn {
     background: #61963D;
+    border-radius: 0px;
 }
 
 .success_btn:hover {
