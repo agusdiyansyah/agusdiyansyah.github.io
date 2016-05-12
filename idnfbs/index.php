@@ -552,7 +552,7 @@
                         <div class="player" data-property="{
                             videoURL:'https://www.youtube.com/watch?v=wgTTMReMWVU',
                             containment:'.player',
-                            autoPlay:false,
+                            autoPlay: false,
                             mute:false,
                             startAt:10,
                             opacity:1

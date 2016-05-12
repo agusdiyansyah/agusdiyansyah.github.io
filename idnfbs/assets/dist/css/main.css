@@ -32,6 +32,7 @@ body .link {
 .sign a {
     padding-top: 6px;
     margin: 0 0 0 5px;
+    font-size: 1em !important;
 }
 
 .sign .btn {
@@ -204,7 +205,7 @@ h2 {
     font-weight: 700;
     /*margin: 25px 15px;*/
     color: #fff;
-    font-size: 1.4em !important;
+    font-size: 1.4em;
     border: none;
 }
 
